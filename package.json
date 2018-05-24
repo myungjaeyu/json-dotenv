@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/myungjaeyu/json-dotenv/issues"
   },
-  "homepage": "https://github.com/myungjaeyu/json-dotenv#readme"
+  "homepage": "https://github.com/myungjaeyu/json-dotenv#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
 }
