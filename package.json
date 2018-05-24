@@ -1,6 +1,6 @@
 {
   "name": "json-dotenv",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/myungjaeyu/json-dotenv.git"
   },
-  "keywords": [],
+  "keywords": [
+    "json",
+    "dotenv",
+    "env",
+    ".env",
+    "environment",
+    "process"
+  ],
   "author": "Myungjae Yu <rootcode10@gmail.com> (https://github.com/myungjaeyu)",
   "license": "MIT",
   "bugs": {
