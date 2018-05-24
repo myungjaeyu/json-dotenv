@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node examples/app"
+    "start": "node examples/app",
+    "test": "ava test -v"
   },
   "repository": {
     "type": "git",
