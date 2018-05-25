@@ -18,6 +18,19 @@ Create an `.env.json` file at the root.
         2,
         3
     ],
+    "EXAMPLE_OBJS" : {
+        "first" : 1,
+        "second" : 2,
+        "third" : {
+            "a" : 1,
+            "b" : 2,
+            "c" : {
+                "c_a" : 31,
+                "c_b" : 32,
+                "c_c" : 33
+            }
+        }
+    },    
     "npm_config_git" : "filtered"
 }
 ```
