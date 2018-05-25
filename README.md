@@ -17,7 +17,8 @@ Create an `.env.json` file at the root.
         1,
         2,
         3
-    ]
+    ],
+    "npm_config_git" : "filtered"
 }
 ```
 
@@ -26,6 +27,7 @@ Set the variables into process.env.
 require('json-dotenv')(); // require('json-dotenv')('.env.json');
 
 console.log(process.env.EXAMPLE_NAME || '');
+console.log(process.env.npm_config_git); // 'git'
 ```
 
 ## License
