@@ -22,3 +22,11 @@ test('filtererd', t => {
     t.true(filtered);
 
 });
+
+test('object', t => {
+
+    const object = typeof JSON.parse(process.env.EXAMPLE_OBJS) === 'object';
+
+    t.true(object);
+
+});
