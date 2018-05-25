@@ -14,3 +14,11 @@ test('exam', t => {
     t.true(exam4);
 
 });
+
+test('filtererd', t => {
+
+    const filtered = process.env.npm_config_link !== 'filtered';
+
+    t.true(filtered);
+
+});
