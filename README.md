@@ -43,5 +43,10 @@ console.log(process.env.EXAMPLE_NAME || '');
 console.log(process.env.npm_config_git); // 'git'
 ```
 
+Assigning a property on process.env will implicitly convert the value to a string.
+```javascript
+console.log(JSON.parse(process.env.EXAMPLE_OBJS));
+```
+
 ## License
 [MIT](LICENSE)
