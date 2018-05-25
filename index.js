@@ -1,7 +1,11 @@
 const fs = require('fs'),
       path = require('path');
 
-module.exports = (file = '.env.json') => (obj => Object.assign(process.env, process.env, obj))
-                                         ((is => typeof is === 'object' && is || {})
-                                         ((path => JSON.parse(fs.readFileSync(path, 'utf8')))
-                                         (path.resolve(__dirname, file))));
+module.exports = (file = '.env.json') => (filtered => Object.assign(process.env, filtered))
+                                         ((obj => Object.keys(obj).reduce( (acc, v) => {
+                                            !process.env.hasOwnProperty(v) && (acc[v] = obj[v]); return acc;
+                                         }, {}))
+                                         ((to_string => JSON.parse(to_string))
+                                         ((path => fs.readFileSync(path, 'utf-8'))
+                                         ((name => path.resolve(__dirname, name))
+                                         (file)))));
