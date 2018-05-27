@@ -9,5 +9,5 @@ module.exports = (file = '.env.json') => (filtered => Object.assign(process.env,
                                          }, {}))
                                          ((to_string => JSON.parse(to_string))
                                          ((path => fs.readFileSync(path, 'utf-8'))
-                                         ((name => path.resolve(__dirname, name))
+                                         ((name => path.resolve(process.cwd(), name))
                                          (file)))));
