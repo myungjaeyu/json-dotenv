@@ -1,5 +1,6 @@
 # json-dotenv
 
+[![Travis](https://img.shields.io/travis/myungjaeyu/json-dotenv/master.svg)](https://travis-ci.org/myungjaeyu/json-dotenv)
 [![NPM Version](https://img.shields.io/npm/v/json-dotenv.svg)](https://www.npmjs.com/package/json-dotenv)
 
 ```
