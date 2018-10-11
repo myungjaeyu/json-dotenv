@@ -3,6 +3,8 @@
 [![Travis](https://img.shields.io/travis/myungjaeyu/json-dotenv/master.svg)](https://travis-ci.org/myungjaeyu/json-dotenv)
 [![NPM Version](https://img.shields.io/npm/v/json-dotenv.svg)](https://www.npmjs.com/package/json-dotenv)
 
+[![NPM Badge](https://nodei.co/npm/json-dotenv.png?downloads=true)](https://www.npmjs.com/package/json-dotenv)
+
 ```
 npm i --save json-dotenv
 ```
